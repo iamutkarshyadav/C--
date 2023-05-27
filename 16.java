@@ -40,7 +40,7 @@ public class EmployeeDetails {
 
     private static void validateDepartmentId(int departmentId) throws Exception {
         if (departmentId < 1 || departmentId > 5) {
-            throw new Exception("Invalid Department ID. Please enter a value between 1 and 5.");
+            throw new Exception(`"Invalid Department ID. Please enter a value between 1 and 5.");
         }
     }
 }
