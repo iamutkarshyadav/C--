@@ -6,7 +6,7 @@ struct WeatherData
     double humidity;
     double windSpeed;
 };
-
+//functions
 void trainModel(const std::vector<WeatherData> &trainingData)
 {
     std::cout << "Model trained!" << std::endl;
